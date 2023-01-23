@@ -6,7 +6,7 @@ from datetime import datetime
 
 def generate_folder_name():
   now = datetime.now()
-  dt_string = now.strftime("%d-%m-%Y %H:%M:%S")
+  dt_string = now.strftime("%d-%m-%Y %H-%M-%S")
   return dt_string
 
 # Get URL to get images from.
